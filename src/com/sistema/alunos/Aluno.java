@@ -7,6 +7,33 @@ package com.sistema.alunos;
 /**
  *
  * @author melin
+ * 1 – Desenvolver o seguinte sistema abaixo, empregando os conhecimentos adquiridos nas
+aulas sobre interfaces gráficas em java.
+a. Criar a seguinte classe Aluno, conforme diagrama:
+ * 
+ * Dica: Pesquisar a classe UUID.
+b. Implementar o formulário possibilitando ao usuário cadastrar uma lista de alunos,
+respeitando as seguintes regras:
+
+i. Quando o botão Ok for pressionado os dados contidos em tela devem
+ser armazenados em memória (utilizar a interface List <E> em
+conjunto com a classe ArrayList<E> para armazenar a lista de alunos
+cadastrados em memória)
+ii. Limpar apaga o conteúdo dos labels.
+iii. Botão Mostrar exibe o pop-up a ser desenvolvido no item (C) deste
+trabalho.
+iv. Botão Sair encerra a aplicação.
+ * 
+ * 
+ * Criar o mecanismo de exibição abaixo, que contempla todos os ids e nomes dos alunos
+cadastrados nesta execução do programa, utilizando a classe:
+JOptionPane.showMessageDialog(this, mensagem);
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  */
 import java.util.UUID;
 
